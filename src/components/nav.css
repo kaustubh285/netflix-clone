@@ -23,4 +23,40 @@
   width: 30px;
   position: fixed;
   right: 20px;
+  transition: transform 100ms ease-in;
+}
+
+.avatar:hover {
+  transform: scale(1.04);
+}
+
+.author_dark {
+  padding-top: 5px;
+  color: white;
+  position: fixed;
+  right: 60px;
+}
+
+.author {
+  padding-top: 5px;
+  color: black;
+  position: fixed;
+  right: 60px;
+}
+
+.author a {
+  background-color: rgba(1, 1, 1, 0.4);
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(251, 251, 251, 0.6);
+}
+
+.author_dark a {
+  text-decoration: none;
+  color: rgba(251, 251, 251, 0.9);
+}
+
+.author a:hover {
+  text-decoration: underline;
+  color: white;
 }

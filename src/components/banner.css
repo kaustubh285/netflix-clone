@@ -19,19 +19,27 @@
   margin-right: 20px !important;
 }
 
+.banner__buttons {
+  padding-bottom: 1rem;
+}
+
 .info:hover {
   background-color: rgba(89, 88, 89, 0.7) !important;
 }
 
 .banner__description {
+  background-color: rgba(1, 1, 1, 0.3);
+  border-radius: 5%;
   text-shadow: 1px 1px 1px black;
   line-height: 1.3rem;
   max-width: 300px;
   width: 40rem;
-  padding-top: 1rem;
   font-size: 0.8rem;
-
+  font-weight: 600;
   height: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
 
 .banner--fadeBottom {
