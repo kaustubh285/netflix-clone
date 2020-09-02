@@ -1,3 +1,7 @@
+.row {
+  color: white;
+  margin-top: 15px;
+}
 .row__posters {
   object-fit: contain;
   display: flex;

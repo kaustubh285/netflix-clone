@@ -30,7 +30,7 @@ function Row({ title, fetchUrl, isPoster }) {
               src={`${imgUrl}${
                 isPoster ? movie.poster_path : movie.backdrop_path
               }`}
-              alt={movie.name || movie.title}
+              alt={movie?.name || movie?.title}
             />
           </div>
         ))}
