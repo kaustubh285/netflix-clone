@@ -43,14 +43,15 @@ function Banner() {
             variant='contained'
             color='default'>
             <PlayArrowIcon />
-            Play
+            <span style={{ paddingLeft: 5 }}> Play </span>
           </Button>
           <Button
             className='banner__button info'
             variant='contained'
             color='default'
             style={{ backgroundColor: "rgba(89,88,89,0.9", color: "white" }}>
-            <InfoOutlinedIcon /> more info
+            <InfoOutlinedIcon />
+            <span style={{ paddingLeft: 5 }}> more info</span>
           </Button>
         </div>
 
